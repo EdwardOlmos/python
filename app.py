@@ -1,5 +1,4 @@
 import os
-from os import path
 import csv
 
 data = []
@@ -11,7 +10,7 @@ with open('data.csv', newline='') as csvfile:
 
 dataLength = len(data)
 
-if (path.exists('script.sql')):
+if (os.path.exists('script.sql')):
   os.remove("script.sql")
 
 with open("script.sql", "a") as scriptfile:
