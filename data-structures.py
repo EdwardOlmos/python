@@ -21,7 +21,21 @@ class LinkedListNode:
         self.next = next
 
 
-# Stack
+# Stack - Simply create list
+stack = []
+## Push - append(), O(1)
+stack.append(1)
+
+## Pop - pop(), O(1)
+stack.pop()
+
+## Size - len(), O(1)
+len(stack)
+
+## Top
+### Depending which side is considered the front
+stack[0]
+stack[-1]
 
 # Queue
 
